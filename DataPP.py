@@ -24,6 +24,8 @@ imputer = SimpleImputer(missing_values=np.nan, strategy="mean")
 imputer = imputer.fit(X[:, 1:3])
 X[:, 1:3] = imputer.transform(X[:, 1:3])
 
+# see the values
+
 print(X)
 print(Y)
 
