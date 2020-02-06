@@ -73,3 +73,4 @@ X_test = sc_X.fit_transform(X_test)
 
 print(X_train)
 print(X_test)
+
